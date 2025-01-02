@@ -32,5 +32,3 @@ jobs:
           project: "e2e"
           entrypoint: "main.ts"
           root: "."
-          
-          
