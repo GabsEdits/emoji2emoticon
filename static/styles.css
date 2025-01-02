@@ -1,4 +1,5 @@
 @import "https://cdn.jsdelivr.net/npm/non.geist@1.0.4/font-faces/sans-var.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
