@@ -7,10 +7,10 @@ export default function CovertionElement() {
   const handleInputChange = async (event: Event) => {
     const input = (event.target as HTMLInputElement).value;
     const endpoint = conversionType
-      ? `localhost:8001/${input}`
-      : `localhost:8001/reverse/${input}`;
+      ? `e2e-api.deno.dev/${input}`
+      : `e2e-api.deno.dev/reverse/${input}`;
     try {
-      const response = await fetch(`http://${endpoint}`);
+      const response = await fetch(`https://${endpoint}`);
       let result = await response.text();
       if (conversionType === false) {
         result = result.replace(/,/g, "/");

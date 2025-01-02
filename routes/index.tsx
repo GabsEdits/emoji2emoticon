@@ -15,7 +15,7 @@ export default function Home() {
       <footer class="flex flex-col gap-3 mt-10 items-center justify-center">
         <div class="flex flex-row gap-2">
           <a
-            href="https://github.com/GabsEdits/compliment-generator"
+            href="https://github.com/GabsEdits/emoji2emoticon"
             target="_blank"
             class="underline text-zinc-600 dark:text-zinc-300 dark:hover:text-zinc-200 hover:text-zinc-950 transition-colors font-extrabold duration-500"
           >
@@ -23,7 +23,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://funfact-api.deno.dev"
+            href="https://e2e-api.deno.dev"
             target="_blank"
             class="underline text-zinc-600 dark:text-zinc-300 dark:hover:text-zinc-200 hover:text-zinc-950 transition-colors font-extrabold duration-500"
           >
@@ -42,7 +42,7 @@ export default function Home() {
         </p>
         <p class="flex flex-col gap-1 sm:hidden lg:block">
           <small>
-            <b>Tip:</b> Press Space to copy the result
+            <b>Pro Tip:</b> Press Space to copy the result
           </small>
         </p>
       </footer>
