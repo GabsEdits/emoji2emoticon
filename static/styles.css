@@ -1,0 +1,64 @@
+@import "https://cdn.jsdelivr.net/npm/non.geist@1.0.4/font-faces/sans-var.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Geist Variable";
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  @apply bg-zinc-950 text-zinc-50;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  height: 100%;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+#app {
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #app {
+    width: 90%;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    @apply bg-zinc-50 text-zinc-950;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
